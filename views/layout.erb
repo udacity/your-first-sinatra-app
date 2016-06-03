@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>YR FIRST SINATRA APP</title>
+<link rel='stylesheet' type='text/css' href='/style.css'>
+<link href='https://fonts.googleapis.com/css?family=Work+Sans:400,500,600' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+  <div id="container">
+    <div id='header'>
+      <a href='/'><img src='/logo2.png' alt='logo image' class='logo'/></a>
+      <a href='/about' class='nav'>ABOUT</a>
+      <a href='/' class='nav'>HOME</a>
+    </div>
+
+    <div id='main'>
+      <%= yield %>
+    </div>
+
+    <div id='footer'>
+    © YR FIRST SINATRA APP
+    </div>
+  </div>
+</body>
+</html>
