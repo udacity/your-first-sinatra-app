@@ -1,36 +1,13 @@
-require "sinatra"
+require 'sinatra'
 
-get "/" do
-	erb :home
+get '/' do
+  erb :home
 end
 
-get "/about" do
-	erb :about
+get '/about' do
+  erb :about
 end
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-get "/secret" do
-	"You found the secret page!!! shhhhhh!!!!"
+get '/secret' do
+  'You found the secret page!!! shhhhhh!!!!'
 end
